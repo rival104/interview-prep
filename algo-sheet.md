@@ -503,6 +503,21 @@ def merge_overlapping_intervals(a, b):
 
 ## Tree
 
+There are two general strategies to traverse a tree:
+
+- Depth First Search (DFS)
+
+In this strategy, we adopt depth as the priority, so that one would start from a root and reach all the way down to a certain leaf, and then back to root to reach another branch.
+
+The DFS strategy can further be distinguished as preorder, inorder, and postorder depending on the relative order among the root node, left node, and right node.
+
+- Breadth First Search (BFS)
+
+We scan through the tree level by level, following the order of height, from top to bottom. The nodes on higher levels would be visited before the ones with lower levels.
+
+In the following figure, the nodes are enumerated in the order you visit them, please follow 1-2-3-4-5 to compare different strategies.
+![image](https://github.com/user-attachments/assets/3511b062-271b-438f-acfe-b33da88fe3d9)
+
 ![Tree](https://upload.wikimedia.org/wikipedia/commons/5/5e/Binary_tree_v2.svg)
 
 ### Traversals
