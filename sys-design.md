@@ -4,3 +4,20 @@ Here is a quick list of examples:
     - Load balancing strategies: round-robin, least connections, IP hash, and consistent hashing
     - Rate limiting approaches: token bucket, leaky bucket, and fixed window counter
     - Caching strategies: write-through, write-around, write-back, and read-through
+
+# Things to Remember:
+FARMS
+ - Fault Tolerance
+ - Availability
+ - Realibitiy
+ - Maintainability
+ - Scalability
+# DB
+## No-SQL
+- BaSE (Eventual Consistency)
+## SQL
+- ACID
+  - Atomicity
+  - Consistency
+  - Isolation
+  - Durability
