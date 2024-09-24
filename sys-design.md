@@ -9,12 +9,14 @@ Here is a quick list of examples:
 FARMS
  - Fault Tolerance
  - Availability
- - Realibitiy
+ - Realibilitiy
  - Maintainability
  - Scalability
 # DB
 ## No-SQL
 - BaSE (Eventual Consistency)
+- PACELC Theorem (an extension of the CAP theorem)
+  - "Given P (a network partition), choose A (availability) or C (consistency). Else, favor Latency or Consistency. (In replication, rudundancy)"
 ## SQL
 - ACID
   - Atomicity
