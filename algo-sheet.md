@@ -1,5 +1,16 @@
 From: https://techinterviewhandbook.org
 
+## Pretend to think about a problem?
+What I do is this:
+- "Give me 1-2 minutes to think about the question"
+- In that 1-2 minutes, run through different test cases in comments, jolt down any edge cases
+- Start talking about the trivial solution ("One way to do this is just a nested loop. That'll be a n^2 solution. But looking at the constraints, this will not pass.")
+- Refine on the trivial solution ("What we can do here is to do some pre-processing / sort the values / maintain order in a heap etc.")
+- Ask if you can proceed to code ("What do you think? Should we try this solution?")
+- Code
+- Check your code against a test case ("Right, let's see how this would run against a test case")
+- Check against your edge cases ("Let me check for edge cases - What if input is 0, or negative, or empty")
+
 # Array
 
 Note that because both arrays and strings are sequences (a string is an array of characters), most of the techniques here will apply to string problems.
