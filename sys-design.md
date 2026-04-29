@@ -14,6 +14,14 @@ Here is a quick list of examples:
  - LRU (Least Recently Used): LRU caching would be useful in popular tweet will be at top. But can become stale after some 
  - LFU (Least Frequently Used): it has limitations when applied to Twitter. For example, tweets from 2013 that have a large number of views might never be evicted due to their frequency, which would prevent new tweets from being stored. Consequently, LRU is a better model for Twitter.
 
+Where caching can live: client, CDN, application server, external cache
+
+The 4 architectures: cache aside, write through, write behind, read through
+
+The 4 eviction policies: LRU, LFU, FIFO, TTL
+
+The 3 problems caching introduces: thundering herd, stale reads, hot keys
+
 # Things to Remember:
 FARMS
  - Fault Tolerance
